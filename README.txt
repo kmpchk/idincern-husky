@@ -1,12 +1,27 @@
+Original author:
 I.DINCER.N.
 ISTANBUL TECHNICAL UNIVERSITY
 
 -------------------------------------------------------------
 
-AUTONOMOUS ROBOT NAVIGATION USING ROS 
+AUTONOMOUS ROBOT NAVIGATION USING ROS (the current fork for Ubuntu 16.04)
 Clearpath Husky A200 robot navigation with Gazebo and RViz simulations using different SLAM and Path Planning algorithms. 360 degrees laser scan with two SICK LMS511 LIDARs.
 
 ------------------------------------------------------------- 
+PREREQUISITES
+
+Global Planner:
+sudo apt-get install ros-kinetic-global-planner
+
+Local Planner:
+sudo apt-get install ros-kinetic-teb-local-planner
+
+Husky:
+sudo apt-get install ros-kinetic-husky-desktop
+sudo apt-get install ros-kinetic-husky-simulator
+
+-------------------------------------------------------------
+
 SIMULATION WORLD LAUNCH
 
 $ roslaunch husky_gazebo husky_koridor3.launch
