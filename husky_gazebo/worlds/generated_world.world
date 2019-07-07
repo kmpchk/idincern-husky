@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+<world name="default">
+<include>
+<uri>model://sun</uri>
+</include>
+<model name="my_mesh"><static>true</static><link name="body"><visual name="visual">
+<pose frame=''>0 0 0 0 0 0</pose>
+<geometry>
+<mesh><uri>file:///home/optio32/ros_workspace/src/idincern-husky/husky_gazebo/worlds/map3.dae</uri></mesh>
+</geometry>
+</visual><collision name="collision1">
+<geometry>
+<mesh><uri>file:///home/optio32/ros_workspace/src/idincern-husky/husky_gazebo/worlds/map3.dae</uri></mesh>
+</geometry>
+</collision></link>
+</model>
+</world>
+</sdf>
